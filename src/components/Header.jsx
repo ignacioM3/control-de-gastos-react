@@ -7,7 +7,8 @@ const Header = ({
   setPresupuesto,
   isValidPresupuesto,
   setIsValidPresupuesto,
-  gastos
+  gastos,
+  setGastos
 }) => {
 
 
@@ -19,6 +20,9 @@ const Header = ({
         <ControlPresupuesto
         presupuesto={presupuesto}
         gastos={gastos}
+        setGastos={setGastos}
+        setPresupuesto={setPresupuesto}
+        setIsValidPresupuesto={setIsValidPresupuesto}
         />
       ) : (
         <NuevoPresupuesto

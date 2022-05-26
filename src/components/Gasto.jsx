@@ -17,13 +17,13 @@ import IconoSalud from '../img/icono_salud.svg'
 import IconoSuscripciones from '../img/icono_suscripciones.svg'
 
 const diccionarioIconos = {
-    ahorro: IconoAhorro,
-    comida: IconoComida,
-    casa: IconoCasa,
-    gastos: IconoGastos,
-    salud: IconoSalud,
-    suscripciones: IconoSuscripciones,
-    ocio: IconoOcio
+    ahorro : IconoAhorro,
+    comida : IconoComida,
+    casa : IconoCasa,
+    gastos : IconoGastos,
+    ocio : IconoOcio,
+    salud : IconoSalud,
+    suscripciones : IconoSuscripciones
 }
 
 
