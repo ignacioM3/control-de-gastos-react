@@ -270,12 +270,12 @@ main {
 }
 
 .gasto {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
     width: 100%;
+    text-align: center;
 }
 
 .cantidad-gasto {
@@ -335,6 +335,17 @@ main {
 .nuevo-gasto img:hover {
     cursor: pointer;
 }
+
+
+/* Gasto media query */
+@media (min-width: 768px) {
+    .gasto{
+        display: flex;
+        text-align: none;
+    }
+}
+
+
 
 .modal {
     position: absolute;

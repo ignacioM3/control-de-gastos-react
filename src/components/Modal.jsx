@@ -55,11 +55,10 @@ const Modal = ({
   
   return (
     <div className="modal">
-      <div className="cerrar-modal">
+      <div className="cerrar-modal" onClick={ocultarModal}>
         <img
           src={closeBtn}
           alt="Cerrar Modal"
-          onClick={ocultarModal}
         />
       </div>
       <form onSubmit={handleSubmit}
